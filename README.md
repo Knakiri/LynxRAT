@@ -13,7 +13,7 @@ LynxRAT is a heavily modified project of the Quasar RAT. We give full credit to 
 
 LynxRAT is a fast and light-weight remote administration tool coded in C#. The usage ranges from user support through day-to-day administrative work to employee monitoring. Providing high stability and an easy-to-use user interface, LynxRAT is the perfect remote administration solution for you.
 
-Please check out the [Getting Started](https://github.com/LynxRAT/LynxRAT/wiki/Getting-Started) guide.
+Please check out the [Getting Started](https://github.com/Quasar/Quasar/wiki/Getting-Started) guide.
 
 ## Screenshots
 
