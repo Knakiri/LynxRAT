@@ -17,6 +17,14 @@ LynxRAT is a fast and light-weight remote administration tool coded in C#. The u
 
 Please check out the [Getting Started](https://github.com/Quasar/Quasar/wiki/Getting-Started) guide.
 
+
+## TODO LIST
+
+Remote Chat
+Live keylogger
+Remote Webcam
+Live Microphone
+
 ## Screenshots
 
 ![remote-shell](Images/remote-shell.png)
