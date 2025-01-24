@@ -21,13 +21,10 @@ Please check out the [Getting Started](https://github.com/Quasar/Quasar/wiki/Get
 ## TODO LIST
 
 * Remote Chat
-* 
 * Live keylogger
-* 
 * Remote Webcam
-* 
 * Live Microphone
-* 
+  
 
 ## Screenshots
 
