@@ -42,10 +42,6 @@ Please check out the [Getting Started](https://github.com/LynxRAT/LynxRAT/wiki/G
 * Password Recovery (Common Browsers and FTP Clients)
 * ... and many more!
 
-## Download
-* [Latest stable release](https://github.com/LynxRAT/LynxRAT/releases) (recommended)
-* [Latest development snapshot](https://ci.appveyor.com/project/MaxXor/Quasar)
-
 ## Supported runtimes and operating systems
 * .NET Framework 4.5.2 or higher
 * Supported operating systems (32- and 64-bit)
@@ -58,22 +54,9 @@ Please check out the [Getting Started](https://github.com/LynxRAT/LynxRAT/wiki/G
   * Windows Server 2012
   * Windows 7
   * Windows Server 2008 R2
-* For older systems please use [LynxRAT version 1.3.0](https://github.com/LynxRAT/LynxRAT/releases/tag/v1.3.0.0)
 
 ## Compiling
 Open the project `Quasar.sln` in Visual Studio 2019+ with installed .NET desktop development features and [restore the NuGET packages](https://docs.microsoft.com/en-us/nuget/consume-packages/package-restore). Once all packages are installed the project can be compiled as usual by clicking `Build` at the top or by pressing `F6`. The resulting executables can be found in the `Bin` directory. See below which build configuration to choose from.
-
-## Building a client
-| Build configuration         | Usage scenario | Description
-| ----------------------------|----------------|--------------
-| Debug configuration         | Testing        | The pre-defined [Settings.cs](/LynxRAT.Client/Config/Settings.cs) will be used, so edit this file before compiling the client. You can execute the client directly with the specified settings.
-| Release configuration       | Production     | Start `Quasar.exe` and use the client builder.
-
-## Contributing
-See [CONTRIBUTING.md](CONTRIBUTING.md)
-
-## Roadmap
-See [ROADMAP.md](ROADMAP.md)
 
 ## Documentation
 See the [wiki](https://github.com/Quasar/Quasar/wiki) for usage instructions and other documentation.
