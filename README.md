@@ -1,4 +1,4 @@
-##Credits and Acknowledgments
+## Credits and Acknowledgments
 
 LynxRAT is a heavily modified project of the Quasar RAT. We give full credit to MaxXor for creating the original Quasar RAT, which served as the foundation for LynxRAT. Without their incredible work, this project would not have been possible. Thank you, MaxXor, for your contribution to the community.
 
