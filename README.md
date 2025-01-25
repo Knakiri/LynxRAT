@@ -2,9 +2,6 @@
 
 LynxRAT is a heavily modified project of the Quasar RAT. We give full credit to MaxXor for creating the original Quasar RAT, which served as the foundation for LynxRAT. Without their incredible work, this project would not have been possible. Thank you, MaxXor, for your contribution to the community.
 
-
-NOTE: THE DEVELOPMENT HAS NOT STARTED YET THIS IS JUST THE BEGINNING!
-
 # LynxRAT
 
 [![Build status](https://ci.appveyor.com/api/projects/status/5857hfy6r1ltb5f2?svg=true)](https://ci.appveyor.com/project/MaxXor/Quasar)
