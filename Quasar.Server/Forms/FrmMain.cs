@@ -67,9 +67,9 @@ namespace Quasar.Server.Forms
                 {
                     int selected = lstClients.SelectedItems.Count;
                     this.Text = (selected > 0)
-                        ? string.Format("Quasar - Connected: {0} [Selected: {1}]", ListenServer.ConnectedClients.Length,
+                        ? string.Format("LynxRAT - Connected: {0} [Selected: {1}]", ListenServer.ConnectedClients.Length,
                             selected)
-                        : string.Format("Quasar - Connected: {0}", ListenServer.ConnectedClients.Length);
+                        : string.Format("LynxRAT - Connected: {0}", ListenServer.ConnectedClients.Length);
                 });
             }
             catch (Exception)
@@ -647,7 +647,15 @@ namespace Quasar.Server.Forms
                 frmRd.Focus();
             }
         }
-
+        private void remoteChatToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            foreach (Client c in GetSelectedClients())
+            {
+                var frmRd = FrmRemoteChat.CreateNewOrGetExisting(c);
+                frmRd.Show();
+                frmRd.Focus();
+            }
+        }
         private void passwordRecoveryToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Client[] clients = GetSelectedClients();
@@ -773,5 +781,7 @@ namespace Quasar.Server.Forms
         }
 
         #endregion
+
+      
     }
 }
